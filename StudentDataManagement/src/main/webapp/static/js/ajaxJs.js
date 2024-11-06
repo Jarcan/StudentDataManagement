@@ -131,7 +131,6 @@ function delStudent(index, userId) {
 // 初始化模态框
 $(document).ready(function () {
     let $addOrUpdUser = $("#addOrUpdUser");
-
     // 给添加或更新学生数据的提交按钮绑定点击事件
     $addOrUpdUser.click(function () {
         let index = $("#id").attr("data-index");

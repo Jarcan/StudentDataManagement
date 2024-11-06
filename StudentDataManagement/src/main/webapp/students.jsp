@@ -77,6 +77,7 @@
     </style>
 </head>
 <body>
+<h1 style="text-align: center">学生数据管理</h1>
 <table>
     <thead>
     <tr>
