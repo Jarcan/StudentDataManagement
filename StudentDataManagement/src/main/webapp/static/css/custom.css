@@ -1,0 +1,112 @@
+.field {
+    position: relative;
+}
+.field span{
+    position: absolute;
+    width: 400px;
+    bottom: 0;
+}
+input, select/*[type=text], input[type="password"]*/ {
+    padding: 3px;
+}
+/* 按钮样式 */
+.btn {
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1.5;
+    text-align: center;
+    vertical-align: middle;
+    background-color: transparent;
+    border: 1px solid rgba(226,230,234,0.85);
+    border-radius: 3px;
+    outline: none;
+    padding: 0.2rem 0.7rem;
+}
+.btn:hover {
+    cursor: pointer;
+    background: rgba(226,230,234,0.85);
+}
+.btn-info {
+    color: #fff;
+    background-color: #17a4f0;
+}
+.btn-info:hover {
+    color: #292e32;
+    background-color: rgba(23, 164, 240, 0.85);
+}
+.btn-outline-info {
+    color: #17a4f0;
+    background-color: transparent;
+    border-color: #17a4f0;
+}
+.btn-outline-info:hover {
+    color: #fff;
+    background-color: rgba(23, 164, 240, 0.85);;
+    border-color: rgba(23, 164, 240, 0.85);;
+}
+.btn-outline-danger {
+    color: #dc3545;
+    background-color: transparent;
+    border-color: #dc3545;
+}
+.btn-outline-danger:hover {
+    color: #fff;
+    background-color: #dc3545;
+    border-color: #dc3545;
+}
+
+/* 链接样式 */
+.link {
+    text-decoration: none;
+}
+.link:hover {
+    cursor: pointer;
+}
+.link-info {
+    color: #409eff;
+
+}
+.link-info:hover {
+    color: #66b1ff;
+    border-bottom: 1px solid #409eff;
+}
+.link-danger {
+    color: #f56c6c;
+}
+.link-danger:hover {
+    color: #f78989;
+    border-bottom: 1px solid #f56c6c;
+}
+
+/* 模态框 */
+.modal{
+    position: fixed;
+    top: 10px;
+    border: 1px solid rgba(0,0,0,.2);
+    border-radius: 0.4rem;
+    background-color: #fff;
+    z-index: 10;
+}
+.modal-body {
+    position: relative;
+    margin: 0 auto;
+    padding: 15px 60px;
+}
+.modal-bottom {
+    border-top: 1px solid #dddddd;
+    padding: .75rem;
+    text-align: right;
+}
+.hide{
+    display: none;
+}
+.shade{
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    opacity: 0.6;
+    background-color: black;
+    z-index: 9;
+}
